@@ -1,73 +1,71 @@
 # GALAH DR3 Spectroscopic Data Analysis
 
-一个用于分析 GALAH DR3 光谱测量数据的 Python Jupyter notebook。
+A Python Jupyter notebook for analysing GALAH DR3 spectroscopic measurement data.
 
-## 📋 项目描述
+## 📋 Project Description
 
-这个项目分析 GALAH (Gaia-ESO Spectroscopic Survey) DR3 数据，使用 astropy 读取 FITS 格式的数据文件，并使用 pandas 进行数据处理和分析。
+This project analyses GALAH (Gaia-ESO Spectroscopic Survey) DR3 data, utilising astropy to read FITS format data files and pandas for data processing and analysis.
 
-## 📁 文件结构
+## 📁 File structure
 
 ```
 .
-├── analysis.ipynb              # 主要分析 notebook
-├── test_galah.py               # 测试脚本
-├── .gitignore                  # Git 忽略文件配置
-├── .venv-1/                    # Python 虚拟环境
-└── README.md                   # 本文件
+├── analysis.ipynb              # Primary Analysis Notebook
+├── test_galah.py               # Test script
+├── .gitignore                  # Git file exclusion configuration
+├── .venv-1/                    # Python Virtual Environment
+└── README.md                   # Project Description
 ```
 
-## 🔧 所需包
+## 🔧 Required packages
 
-- `astropy` - 读取 FITS 文件
-- `pandas` - 数据处理
-- `matplotlib` - 数据可视化
-- `numpy` - 数值计算
+- `astropy` - Reading FITS files
+- `pandas` - Data processing
+- `matplotlib` - Data Visualisation
+- `numpy` - Data computation
 
-## 🚀 快速开始
+## 🚀 Start
 
-### 1. 克隆仓库
+### 1. Clone repository
 ```bash
 git clone https://github.com/AndrewwwC4/PHYS-2116-Computational-Assessment.git
 cd PHYS-2116-Computational-Assessment
 ```
 
-### 2. 创建虚拟环境
+### 2. Create a virtual environment
 ```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
-# 或
+# or
 venv\Scripts\activate  # Windows
 ```
 
-### 3. 安装依赖
+### 3. Install dependencies
 ```bash
 pip install astropy pandas matplotlib numpy
 ```
 
-### 4. 运行分析
+### 4. Operational Analysis
 ```bash
 jupyter notebook analysis.ipynb
 ```
 
-## 📊 数据文件
+## 📊 Data file
 
-原始 FITS 数据文件（由于文件大小 > 100MB，未包含在仓库中）：
-- `GALAH_DR3_main_allstar_v2.fits` - 主要星表数据
-- `GALAH_DR3_VAC_GaiaEDR3_v2.fits` - Gaia EDR3 交叉匹配数据
+Raw FITS data files (excluded from the repository due to file size exceeding 100MB)：
+- `GALAH_DR3_main_allstar_v2.fits` - Stellar Catalogues
+- `GALAH_DR3_VAC_GaiaEDR3_v2.fits` - Gaia EDR3 Cross-matched data
 
-可以从以下来源获取：
-- [GALAH Survey 官方网站](https://www.galah-survey.org/)
-- [ESO 数据档案馆](https://www.eso.org/rm/public/archives/dh)
+Available from the following sources：
+- [GALAH Survey Official Website](https://www.galah-survey.org/)
+- [ESO Data Archives](https://www.eso.org/rm/public/archives/dh)
 
-## 📝 许可证
+This project is intended solely for educational and research purposes.
 
-此项目仅供学习和研究用途。
+## ✍️ Contributor
 
-## ✍️ 作者
-
-AndrewwwC4
+AndrewwwC4 [Hei Kan CHAN]
 
 ---
 
-**课程:** PHYS 2116 Computational Assessment (UNSW Sydney)
+**Course:** PHYS 2116 Computational Assessment (UNSW Sydney)
