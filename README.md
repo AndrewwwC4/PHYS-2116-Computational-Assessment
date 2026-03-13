@@ -2,11 +2,11 @@
 
 A Python Jupyter notebook for analysing GALAH DR3 spectroscopic measurement data.
 
-## 📋 Project Description
+## Project Description
 
 This project analyses GALAH (Gaia-ESO Spectroscopic Survey) DR3 data, utilising astropy to read FITS format data files and pandas for data processing and analysis.
 
-## 📁 File structure
+## File structure
 
 ```
 .
@@ -17,14 +17,14 @@ This project analyses GALAH (Gaia-ESO Spectroscopic Survey) DR3 data, utilising 
 └── README.md                   # Project Description
 ```
 
-## 🔧 Required packages
+## Required packages
 
 - `astropy` - Reading FITS files
 - `pandas` - Data processing
 - `matplotlib` - Data Visualisation
 - `numpy` - Data computation
 
-## 🚀 Start
+## Start
 
 ### 1. Clone repository
 ```bash
@@ -50,7 +50,7 @@ pip install astropy pandas matplotlib numpy
 jupyter notebook analysis.ipynb
 ```
 
-## 📊 Data file
+## Data file
 
 Raw FITS data files (excluded from the repository due to file size exceeding 100MB)：
 - `GALAH_DR3_main_allstar_v2.fits` - Stellar Catalogues
@@ -62,7 +62,7 @@ Available from the following sources：
 
 This project is intended solely for educational and research purposes.
 
-## ✍️ Contributor
+## Contributor
 
 AndrewwwC4 [Hei Kan CHAN]
 
